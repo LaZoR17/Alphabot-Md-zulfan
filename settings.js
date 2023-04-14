@@ -46,8 +46,8 @@ global.language = indonesia //change indonesia to english if you don't understan
 
 // Other
 // Other
-global.botname = "Alphabot-Mdོ" //namabot kalian
-global.ownername = "ᴹᴿ᭄ ZeeoneOfcོ ×፝֟͜×" //nama kalian
+global.botname = "Xyvlio" //namabot kalian
+global.ownername = "ZulFx" //nama kalian
 global.myweb = "https://s.id/zeeoneofc" //bebas asal jan hapus
 global.youtube = "https://youtube.com/c/@ZeeoneOfc" //bebas asal jan hapus
 global.myweb2 = "https://s.id/zeeoneofc" //bebas
@@ -75,65 +75,18 @@ global.limitawal = {
    free: 100
 }
 global.buttonDefault = [{
-   urlButton: {
-      displayText: 'Youtube Channel',
-      url: youtube
-   }
-}, {
-   urlButton: {
-      displayText: 'Website',
-      url: myweb
-   }
-}, {
-   quickReplyButton: {
-      displayText: '🏓 Ping',
-      id: '.ping'
-   }
-}, {
-   quickReplyButton: {
-      displayText: 'Owner 👤',
-      id: '.owner'
-   }
-}, {
    quickReplyButton: {
       displayText: '⚡ Command ⚡',
       id: '.command'
    }
 }]
 global.buttonDefault2 = [{
-   urlButton: {
-      displayText: 'Youtube Channel',
-      url: youtube
-   }
-}, {
-   urlButton: {
-      displayText: 'Website',
-      url: myweb
-   }
-}, {
    quickReplyButton: {
       displayText: '🏓 Ping',
       id: '.ping'
    }
-}, {
-   quickReplyButton: {
-      displayText: 'Owner 👤',
-      id: '.owner'
-   }
-}, {
-   quickReplyButton: {
-      displayText: '🎁 Donasi 🎁',
-      id: '.donasi'
-   }
 }]
 global.buttonDefault3 = [{
-      buttonId: `.owner`,
-      buttonText: {
-         displayText: '🙍‍♂️ Owner'
-      },
-      type: 1
-   },
-   {
       buttonId: `.donasi`,
       buttonText: {
          displayText: 'Donation 💰'
@@ -145,12 +98,6 @@ global.buttonDefault4 = [{
    buttonId: '.command',
    buttonText: {
       displayText: '༺ Back'
-   },
-   type: 1
-}, {
-   buttonId: '.owner',
-   buttonText: {
-      displayText: 'Owner ༻'
    },
    type: 1
 }]
